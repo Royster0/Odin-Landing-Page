@@ -1,0 +1,212 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto Flex', sans-serif;
+    box-sizing: border-box;
+}
+
+.navbar {
+    padding-top: 1%;
+    padding-left: 15%;
+    padding-right: 15%;
+    background-color: #1f2937;
+    display: flex;
+    flex-flow: row;
+    gap: 750px;
+}
+
+.navbar div img { height: 35px; width: auto; }
+
+.nav-container-right {
+    display: flex;
+    flex-flow: row;
+    gap: 40px;
+}
+
+.nav-container-right a { font-size: 18px; color: #E5E7EB; }
+
+.nav-container-right a:link { text-decoration: none; }
+
+.nav-container-right a:visited { text-decoration: none; }
+
+.nav-container-right a:hover { color: #99c0ec; }
+
+.about {
+    padding-top: 7%;
+    padding-left: 15%;
+    padding-right: 17%;
+    padding-bottom: 7%;
+    display: flex;
+    flex-flow: row;
+    gap: 10px;
+    background-color: #1f2937;
+}
+
+.about-container-left { flex: 1; height: 230px; }
+
+.about-heading h1 { font-size: 48px; color: #F9FAF8; }
+
+.about-para { margin-top: 2%; margin-bottom: 3%; }
+
+.about-para p { font-size: 18px; color: #E5E7EB; }
+
+.about-button {
+    width: 150px;
+    height: 45px;
+    background-color: #3882F6;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 12px;
+}
+
+.about-button a { color: #F9FAF8; font-weight: 600; }
+
+.about-button a:link { text-decoration: none; }
+
+.about-button a:visited { text-decoration: none; }
+
+.about-container-right {
+    flex: 1.5;
+    height: 230px;
+    background-color: rgb(119, 124, 133);
+    padding-top: 100px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.about-container-right p { font-size: 18px; color: #E5E7EB; }
+
+.information {
+    padding-top: 3%;
+    padding-left: 23%;
+    padding-right: 23%;
+    padding-bottom: 10%;
+}
+
+.info-container {
+    margin-top: 6%;
+    display: flex;
+    flex-flow: row;
+    gap: 55px;
+}
+
+.information h1 {
+    text-align: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 800;
+}
+
+.info-box {
+    border: 5.5px solid #3882F6;
+    border-radius: 15px;
+    height: 210px;
+    flex: auto;
+}
+
+.info-text {
+    gap: 70px;
+    display: flex;
+    flex-flow: row;
+}
+
+.text-under-box {
+    padding-top: 1%;
+    height: 30px;
+    flex: 1;
+    text-align: center;
+}
+
+.text-under-box p {
+    font-size: 18px;
+    font-weight: 600;
+    color: #1F2937;
+}
+
+.inspirational {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-flow: column;
+    padding-top: 7.5%;
+    padding-bottom: 6%;
+}
+
+.quote-box { flex: 1; text-align: center; }
+
+.quote-box p {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    color: #1f2937;
+}
+
+.artist {
+    flex: 1;
+    padding-right: 25%;
+    padding-top: 2%;
+    text-align: right;
+}
+
+.artist p {
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 800;
+    color: #1f2937;
+}
+
+.action {
+    display: flex;
+    padding-left: 11%;
+    padding-right: 11%;
+    padding-top: 6.5%;
+    padding-bottom: 6.5%;
+}
+
+.action-box {
+    display: flex;
+    flex-flow: row;
+    height: 210px;
+    flex: auto;
+    background-color: #3882F6;
+    border-radius: 15px;
+    justify-content: center;
+}
+
+.action-box-left {
+    padding-top: 72px;
+    padding-left: 175px;
+    text-align: left;
+    flex: 4;
+}
+
+.action-box-left h3 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.action-box-left h5 {
+    font-size: 24px;
+    font-weight: normal;
+    color: #dfe6d9;
+}
+
+.action-box-right {
+    justify-content: left;
+    flex: 1;
+    padding-top: 80px;
+    padding-right: 80px;
+}
+
+.action-button { width: 150px; height: 50px; border: 3px solid white;
+                 border-radius: 10px; text-align: center; padding-top: 11px; }
+
+.action-button a { color: #F9FAF8; font-weight: 600; font-size: 18px;}
+
+.action-button a:link { text-decoration: none; }
+
+.action-button a:visited { text-decoration: none; }
+
+footer { padding-top: 3%; padding-bottom: 3%; background-color: #1F2937; text-align: center; }
+
+footer h4 { font-size: 18px; font-weight: normal; color: #E5E7EB; }
